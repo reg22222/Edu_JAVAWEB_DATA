@@ -1,0 +1,6 @@
+mvn install:install-file 
+-Dfile=C:\app\user\product\18.0.0\dbhomeXE\jdbc\lib\ojdbc8.jar 
+-DgroupId=com.oracle 
+-DartifactId=ojdbc8 
+-Dversion=18.0.0.0 
+-Dpackaging=jar

@@ -1,0 +1,39 @@
+https://tomcat.apache.org/
+
+create table student
+(id varchar2(10),
+name varchar2(15),
+cname varchar2(25));
+
+insert.jsp를 여러분이 배운신 방식대로
+완성시켜 보시기 바랍니다
+insert.jsp가 실행이 완료되면 등록성공시
+list.jsp를 만드셔서 student테이블에 있는
+모든 데이터를 보여주시면 되고,
+만약 등록 실패시엔 student.jsp로 이동
+시켜주시면 됩니다
+
+학생삭제페이지를 완성시켜 주세요
+아이디를 입력하면 그 아이디에 해당하는
+학생을 삭제하고 성공시 list.jsp로
+실패시 student.jsp로 
+
+게시판 테이블 만들기
+create table board
+(num number primary key,
+writer varchar2(10) not null,
+email varchar2(30),
+subject varchar2(50) not null,
+passwd varchar2(12) not null,
+reg_date varchar2(10) not null,
+readcount number default 0,
+content varchar2(4000) not null,
+ip varchar2(20) not null);
+
+create sequence board_seq;
+
+
+
+
+
+

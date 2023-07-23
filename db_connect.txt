@@ -1,0 +1,10 @@
+<Resource auth="Container" 
+	driverClassName="oracle.jdbc.driver.OracleDriver" 
+	maxActive="10" 
+	maxIdle="5" 
+	maxWait="-1" 
+	name="jdbc/oracle" 
+	password="web06" 
+	type="javax.sql.DataSource" 
+	url="jdbc:oracle:thin:@localhost:1521:xe" 
+	username="web06"/>  

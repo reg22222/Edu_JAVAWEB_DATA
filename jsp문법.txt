@@ -1,0 +1,26 @@
+jsp 문법
+- 지시어 : <%@ ~ %>
+  - page	:  현재 파일에 설정값 지정
+  - include : 템플릿페이지 만들때 사용
+  - taglib : 사용자정의태그를 사용하고자 할때 - JSTL
+
+- 자바코드 사용
+  - <%! ~ %> : 선언문
+  - <%  ~ %> : scriptlet	=> JSTL로 바꾸어 사용
+  - <%=   %> : 표현식	=> EL로 바꾸어 사용
+
+- jsp의 생명주기
+  - jspInit() -> _jspService() -> jspDestory() 
+  - jspInit()과 jspDestory()는 오버라이드 가능,
+    jspService()는 오버라이드 불가!!
+
+- jsp의 파일 업로드
+  - form태그의 메소드는 반드시 post로
+  - enctype은 multipart/form-data로
+  - input태그는 file속성으로
+  - MultipartRequest라는 객체로 값을 받는다
+
+
+
+
+

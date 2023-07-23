@@ -1,0 +1,11 @@
+command패턴 : 
+ - jsp페이지에서 servlet으로 이동을 할때,
+  어디에서 왔는지 구별하기 위해 만든 패턴
+=>
+command 객체화
+CommandIf 인터페이스를 만들고, 각 객체는 이를 상속
+index	-> IndexCommand
+insert	-> InsertCommand
+delete	-> DeleteCommand
+find	-> FindCommand
+list	-> ListCommand
